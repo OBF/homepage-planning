@@ -9,6 +9,6 @@ Current home page: [https://www.open-bio.org/wiki/Main_Page](https://www.open-bi
 
 ## Design requirements: 
 
-Please see our design brief: (to be added)
+Please see our [design brief](design.md)
 
 
