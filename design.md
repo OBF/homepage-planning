@@ -19,30 +19,30 @@ although CMSes will be considered, so long as they have an easy-to-update-site
 interface. Static site generators such as Jekyll or Hugo are not suitable. 
 
 ### Rough site map
-    - Homepage
-    - Blog
-    - [BOSC!](https://www.open-bio.org/wiki/BOSC)
-      - organiser team
-        - bios
-        - How to volunteer
-      - programs, plans, etc.?
-        - current
-        - previous years
-      - sponsorship levels
-    - Project membership list
-      - current
-      - archived
-      - how to apply
-    - Board of directors bios
-    - Travel fellowships
-    - [GSoC](https://obf.github.io/GSoC/)
-    - CoC
-    - by-laws
-    - Calendar
-    - Contact methods (mailing lists, ...chat? twitter.)
-    - how to help out and/or donate
+- Homepage
+- Blog
+- [BOSC!](https://www.open-bio.org/wiki/BOSC)
+  - organiser team
+    - bios
+    - How to volunteer
+  - programs, plans, etc.?
+    - current
+    - previous years
+  - sponsorship levels
+- Project membership list
+  - current
+  - archived
+  - how to apply
+- Board of directors bios
+- Travel fellowships
+- [GSoC](https://obf.github.io/GSoC/)
+- CoC
+- by-laws
+- Calendar
+- Contact methods (mailing lists, ...chat? twitter.)
+- how to help out and/or donate
  
-  ### Person spec for implementor
+### Person spec for implementor
 
   - Graphic design skills
   - HTML + CSS skills
