@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/OBF/homepage.svg)](https://gitter.im/OBF/homepage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # OBF Homepage
 Repository for the re-design of the OBF homepage. 
 
