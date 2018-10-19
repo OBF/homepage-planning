@@ -1,0 +1,296 @@
+body {
+    font-family: 'K2D', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0p;
+    margin: 0;
+    background-color: lightgray;
+
+}
+.container {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} 
+
+/*HEADER*/
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff9933 5px solid;
+    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;   
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+button {
+    height: 38px;
+    background-color: white;
+    border: 0;
+    padding: 0px 20px 0px 20px;
+    color: black;
+    font-size: 14px;
+}
+
+header #obf-logo {
+    float: left;
+}
+
+header #obf-logo h1{
+    margin: 0;
+    text-align: center;
+}
+
+header #obf-logo img {
+    height: 70px;
+    width: 70px;
+}
+header nav {
+    float: right;
+}
+
+header .highlight, header .current a {
+    color: #3399ff;
+}
+
+header a:hover {
+    color: #ff9933;
+    font-weight: bold;
+}
+
+/*SHOWCASE*/
+
+#showcase {
+    min-height: 400px;
+    background: url(Cosima-laptop.png) no-repeat 0 -400px;
+    text-align: center;
+    color: darkblue;
+}
+#image {
+    background-color: black;
+    margin-top: 20px;
+}
+#image img {
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+    width: 80%;
+    height: 400px;
+}
+#image h1 {
+position: absolute;
+    top:700px;
+    margin-left: 20%;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/*BOXES*/
+
+.boxes {
+    margin-top: 20px;
+    background-color: #ff9933;
+    
+}
+.boxes .box h3 {
+    background-color: orangered;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.boxes .box {
+    float: left;
+    width: 40%;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.boxes .box #event a {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.boxes .box #event p {
+    color: #3399aa;
+    font-weight: bold;
+}
+
+/*CONTENTS*/
+
+#contents {
+    margin-top: 20px;
+    background-color: black;
+}
+#contents .info {
+   /* float: left;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #3399ff;*/
+    
+    float: left;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: #ff9933;
+}
+
+#contents .info h3 {
+  /*  background-color: lightblue;
+padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10%;
+    float: left;*/
+    
+     background-color: orangered;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#contents .info ul {
+    list-style: none;
+    float: left;
+}
+#contents .info li a{
+    padding-right: 30px;
+    padding-left: 100px;
+    font-size: 16px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+#contents .info img {
+    height: 30px;
+    width: 100px;
+    background-color: #ff9933;
+    display: inline-block;
+    margin: 20px;
+    float: right;
+}
+
+#contents .info p {
+    float: left;
+}
+
+/*TEAM*/
+#team {
+    margin-top: 20px;
+      background-color: black;  
+   
+}
+#team h2 {
+    color: white;
+    text-align: center;
+}
+
+#team .member {
+     float: left;
+    color: white;
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    margin: 5%;
+    background-color: #ff9933;
+    text-align: center;
+    border: 5px solid #ff9933;
+    border-radius: 10px;
+    
+}
+
+#team .member img {
+    background-color: white;
+    border-radius: 50% 25%;
+    
+    height: 100px;
+
+}
+
+#team .member p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*CONTACT*/
+
+.contact {
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    background-color: #ff9933;
+    
+}
+
+.contact h3 {
+   /* float: left;*/
+    display: block;
+    text-align: center;
+    
+}
+
+.contact form {
+    float: left;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.contact input[type="email"] {
+    margin: 5px;
+    padding-left: 5px;
+    height: 25px;
+    width: 250px;
+}
+.contact .icons {
+    margin-left: 40%;
+}
+.contact .icons img {
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+    
+    
+}
+
+footer {
+    text-align: center;
+}
