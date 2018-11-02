@@ -1,4 +1,4 @@
-Idea 0
+Idea 1
 
 -- An idea is to keep the homepage as a long page wherein we can easily see an overview of what OBS is all about. I can make a quick links tab as well maybe at the top so that the members can get to the links they care about more, i.e, the projects list, membership details, events, volunteering for BOSC, etc, while still keeping the site friendly for people who aren't members yet.
 
