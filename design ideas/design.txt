@@ -1,0 +1,16 @@
+﻿HOW TO IMPLEMENTN MY MOCK UP TO A SITE
+
+I will propose two methodsto achive my mock up design. and if you guys arent ok with this design i can redesign or create a new one
+
+1. Wordpress
+2. Django and Bootstrap
+
+WORDPRESS
+To implement this mock up on wordpress i have two proposed way to achive this. Firstly i'll code the site in html, css and spice it up with
+Javascript and then i'll convert the scripts into a wordpress template and then will install it on wordpress or i'll use any wordpress theme builder like Template Toaster
+to create and design the theme which i will then easily install comfortably implement.
+
+DJANGO & BOOTSTRAP
+I can also write codes to design the site as a django CMS Theme and then make it so responsive with Bootstrap and also spice it up with wagtail if required.
+
+NB: I can change the UI/UX feel of the site and use any required means from coding to wordpress, django and drupal and am ready to learn any skill needed for the completion of the project.
