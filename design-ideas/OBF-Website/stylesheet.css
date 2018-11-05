@@ -1,0 +1,140 @@
+:root { 
+	--green: #07a36f;
+	--black: rgb(31, 34, 34);
+	--white: #FFF;
+	--gray: #4d4d4d;
+}
+
+/*-- Use offscreen area to hide content from users but not screenreaders. 
+	Can be useful to make the site accessible --*/
+.hidden { 
+	position: absolute; 
+	top: auto;
+	left: -10000px;
+	width:1px;
+	height:1px;
+}
+
+
+/*-- base --*/
+
+
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+body {
+	background: url('background.jpg'); 
+	background-repeat: no-repeat;
+	background-size: 110% auto;
+	font-family: "Helvetica", sans-serif;
+	font-size: 13px;
+	color: var(--white);
+	width: 100%;
+	margin: 0;
+}
+
+footer {
+	margin: 0;
+	padding: 8vw 5vw;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration:none;
+	color: var(--white);
+}
+
+
+a:hover {
+	color: var(--green);
+}
+
+li { 
+	list-style: none;
+}
+
+
+/* ------ header ------- */ 
+#header { 
+	height: 100vh;
+	padding-top: 30vh;
+	background-color:rgba(0, 0, 0, 0.4);
+}
+
+
+#header-img { 
+	width: 400px;
+	margin: auto;
+	display: block;
+ }
+
+#subtitle { 
+	font-weight: normal;
+	font-size: 16px;
+	width: 50%; 
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+}
+
+ /*------ nav --------*/
+
+ nav {
+	width: 100%;
+ 	z-index: 20;
+ 	position: fixed; 
+ 	top: 0;
+	left: 0;
+ }
+
+
+#container { 
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 0 0 150px;
+	padding: 30px;
+	z-index: 100;
+}
+
+#container li {
+	padding: 0 20px;
+	margin: 0;
+}
+
+
+
+ /*----- event info ------*/
+
+ #event-info { 
+	margin: 0;
+	padding: 100px;
+	background-color: var(--orange);	
+	background-color: var(--blue);
+	background: -moz-linear-gradient(-45deg, #31dfff 0%, #226baa 62%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #31dfff 0%,#226baa 62%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #31dfff 0%,#226baa 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+ #about p {
+	width: 50%;
+	padding: 0;
+}
+
+/*------footer --------*/
+footer {
+	background: var(--white);
+	padding: 15px;
+	color: var(--black);
+}
+
+/*------media query-----*/
+@media (max-width: 710px) {
+
+}
