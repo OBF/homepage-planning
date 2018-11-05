@@ -1,0 +1,496 @@
+/*
+    Theme Name: WP Bootstrap
+    Theme URL: https://ninja.com
+    Author: Faiqa Shafqat
+    Author URL: https://ninja.com
+    Description: Simple Wordpress Bootstrap Theme
+    Version: 1.0
+*/
+
+body {
+    font-size: 15px;
+    line-height: 1.52;
+    color: #717f86;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.section-padding {
+    padding: 60px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    color: #4B4B4C;
+}
+
+a {
+    color: #5fcf80;
+}
+
+a:hover,
+a:focus {
+    color: #5fcf80;
+}
+
+/***********************************
+Navigation bar
+************************************/
+.navbar-default .navbar-brand {
+    color: #5FCF80;
+    background: no-repeat center top;
+    width: 30px;
+    height: 10px;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+}
+
+.course-text {
+    padding: 84px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #717f86;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a {
+    padding: 0px;
+    margin: 10px 5px;
+    padding: 10px 15px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #5FCF80;
+}
+
+.navbar-nav .active a {
+    background: none !important;
+    color: #5FCF80 !important;
+    outline: none;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Dosis', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+    height: inherit;
+    font-size: 36px;
+    margin: 20px 0px;
+}
+
+.navbar-default .navbar-brand span {
+    font-weight: 100 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.padding-zero {
+    padding: 0px;
+}
+
+.mart20 {
+    margin-top: 20px;
+}
+
+/***********************************
+Banner
+************************************/
+.banner {
+    background: url('img/bg.jpeg') no-repeat center top;
+    background-size: cover;
+    min-height: 580px;
+    position: relative;
+}
+
+.bg-color {
+    background-color: RGBA(12, 11, 11, 0.82);
+    min-height: 580px;
+}
+
+.text-dec {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text-border {
+    border: 5px solid #5FCF80;
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.intro-para {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.quote .btn {
+    background-color:
+}
+
+.modal-dialog {
+    width: 600px;
+    margin: 150px auto;
+}
+
+.mouse {
+    width: 25px;
+    height: 45px;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12.5px;
+    border-radius: 12px;
+}
+
+.mouse::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: 50%;
+    top: 10px;
+    margin-left: -2.5px;
+    transition: all 0.3s ease-in;
+
+    -webkit-animation-name: rotateplane;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s;
+    /* Chrome, Safari, Opera */
+    animation-name: rotateplane;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.modal-content h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.login-box-body {
+    padding: 15px 30px;
+}
+
+.login-box-msg,
+.register-box-msg {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 20px 20px;
+}
+
+.modal-sm {
+    width: 400px;
+}
+
+.padleft-right {
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+.big-text {
+    font-size: 35px;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.quote .btn {
+    background-color: #5fcf80;
+    color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.quote .btn:hover,
+.quote .btn:focus {
+    background-color: #fff;
+    color: #5fcf80;
+    border-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/***********************************
+ About Us
+************************************/
+#about_us {}
+
+.orga-stru {
+    background-color: #5FCF80;
+    width: 109px;
+    height: auto;
+    padding: 10px 10px 25px 10px;
+    text-align: center;
+    border-radius: 0px 80px 99px 99px;
+    -moz-border-radius: 0px 80px 99px 99px;
+    -webkit-border-radius: 0px 80px 99px 99px;
+    -o-border-radius: 0px 80px 99px 99px;
+}
+
+.orga-stru h3 {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.orga-stru p {
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    line-height: 20px;
+    padding-top: 15px;
+}
+
+/***********************************
+Blogs
+************************************/
+
+#blog {
+    background-color: rgb(247, 247, 247);
+}
+
+h2 {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.bottom-line {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(99, 122, 145);
+}
+
+.blog {
+    margin-top: 25px;
+}
+
+
+.heading {
+    width: 80%;
+}
+
+.heading h4 {
+    font-size: 17px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.heading p {
+    text-align: left;
+}
+
+/***********************************
+OBF Board
+************************************/
+.pm-staff-profile-image {
+    width: 150px;
+    height: 150px;
+    background-color: #C6C6C6;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pm-staff-profile-details {
+    padding: 20px 20px;
+}
+
+.pm-staff-profile-name {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #2b5d83;
+}
+
+.pm-staff-profile-title {
+    text-transform: capitalize;
+    color: #4b4b4b;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+
+.pm-staff-profile-bio {
+    text-transform: capitalize;
+    color: #4b4b4b;
+    font-weight: 100;
+}
+
+/***********************************
+BOSC
+************************************/
+#bosc {
+    background-color: rgb(247, 247, 247);
+}
+
+/***********************************
+Contact Us
+************************************/
+.contact form .form {
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 12px;
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #7f7f7f;
+    letter-spacing: 0.5px;
+}
+
+#contact .form-control {
+    background: #fafafa;
+    border: 1px solid rgba(119, 81, 81, 0.34);
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 0;
+
+}
+
+.textarea {
+    height: 228px;
+    max-width: 100%;
+    max-height: 229px;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.white {
+    color: #fff !important;
+}
+
+/***********************************
+Footer
+************************************/
+.footer {
+    padding: 60px 0 20px;
+    background: #111;
+    color: #ccc;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer h3 {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin: 0 0 40px;
+    font-size: 24px;
+}
+
+.footer .form-control {
+    border-radius: 30px;
+    border: none;
+    background: rgba(255, 255, 255, .1);
+    padding-left: 30px;
+    color: #e5e6e7;
+    margin-bottom: 0;
+    height: 48px;
+}
+
+.footer .social-links li a {
+    color: #fff;
+    font-size: 32px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.footer .social-links li {
+    display: inline-block;
+    margin: 0 25px 25px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.footer .mc-trial {
+    margin: 20px 0;
+}
+
+.footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 40px;
+    padding: 40px 0 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+    background-color: #5fcf80;
+    color: #fff;
+}
+
+.btn-submit {
+    padding: 14px 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #5fcf80;
+    color: #fff;
+}
+
+.btn-submit i {
+    padding-left: 8px;
+}
+
+.btn-green,
+.btn-green:hover {
+    background-color: #5fcf80;
+    color: #fff;
+}
+
+.footer .form-control:focus {
+    box-shadow: none;
+}
