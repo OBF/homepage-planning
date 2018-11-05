@@ -13,21 +13,17 @@ body {
     display: none;
 }
 
-/*body.fade-out {
-    opacity: 0;
-    transition: none;
-}*/
-
-.wrapper {
-    height: auto;
-    width: 100%;
-    margin: 0;
-    overflow:hidden;
-} 
 .container {
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 30px;
     padding-right: 30px;
-    width: 1200px;
+    height: auto;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;   
 }
 
 section {
@@ -62,7 +58,6 @@ a:hover {
     margin-bottom: 0px;  
 }
 
-
 .navbar .nav-logo {
     padding: 0;
     margin-left: 0;
@@ -87,13 +82,12 @@ a:hover {
     padding: 0px 20px;
     text-align: right;
     display: inline-block;
+    transition: 0.5s ease;
 }
 
 .navbar ul li:hover {
     background-color: #c4f5c6;
-    transition: 0.5s;
     border-radius: 25px;
-    transition-timing-function: ease-in;
     text-decoration:none;
 }
 
@@ -135,7 +129,7 @@ a:hover {
 .dropdown .dropdown-menu li a {
     color: darkslategray;
     font-size: 18px;
-    
+    transition: 0.3s ease;
 }
 
 .navbar .dropdown .dropdown-menu li:hover {
@@ -147,7 +141,7 @@ a:hover {
    background-color: lightblue;
     background-image: none;
     border-radius: 10px;
-    transition: 0.3s ease;
+    
 }
 
 .dropdown:hover .dropdown-menu {
@@ -225,6 +219,7 @@ i {
     padding: 10px 25px 10px 25px;
     font-weight: normal;
     font-style: normal;
+    font-family: 'Montserrat', serif;
     border-radius: 0 25px 25px 0;
     background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);
     transition: 0.5s ease-in-out;   
@@ -314,12 +309,13 @@ i {
     text-decoration: none;
     font-family: 'Slabo 27px', serif;
     font-size: 26px;
-    letter-spacing: 0.7px   
+    letter-spacing: 0.7px;
+    transition: 0.3s ease;
 }
 
 .blog-list .list-post a:hover {
     color: skyblue;
-    transition: 0.3s ease;
+    
 } 
 
 .news-button .button {
@@ -330,11 +326,13 @@ i {
     padding: 10px 15px 10px 25px;
     font-weight: normal;
     font-style: normal;
+    font-size: 20px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
     border-radius: 25px 0 0 25px;
     background-image: linear-gradient(to left, #84fab0 0%,  #8fd3f4 51%);
     margin-bottom: 30px;
-    font-family: 'Montserrat', serif;
-    font-weight: bold;  
+    transition: 0.5s ease-in-out;
 }
 
 .news-button .button:hover {
@@ -362,14 +360,15 @@ i {
 }
 .fellowships-section .fellowships-text-wrapper {
     position: relative;
+    top: 20%;
     height: auto;
 }
 .fellowships-section .fellowships-background-image {
-    max-width: 586px;
+    max-width: 560px;
     max-height: 480px;
     position: absolute;
     margin-top: 50px;
-    right: -586px;
+    right: -560px;
     width: 100%;
     height: 80%; 
     background-size: cover;
@@ -385,6 +384,12 @@ i {
     background-color: transparent;
     text-decoration: none;
     font-size: 26px;
+    transition: 0.3s ease;
+}
+
+.fellowship-info-list .list-question a:hover{
+    color: midnightblue;
+
 }
 
 .fellowships-apply-button .button {
@@ -397,7 +402,8 @@ i {
     font-weight: bold;
     font-family: 'Montserrat',serif;
     border-radius: 0 25px 25px 0;
-    background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);    
+    background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);  
+    transition: 0.5s ease-in-out;
 }
 
 .fellowships-apply-button .button:hover {
@@ -422,4 +428,100 @@ i {
     padding-right: 30px;
 }
 
+/*PROJECTS SECTION*/
 
+
+.projects-section {
+    margin-top: 100px;
+    /*float: left;*/
+    background-color: #1b2e25;
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 0;
+    transition: 1s ease;
+    height: 100%;
+    width: 100%;
+    padding: 55px 0 50px 0;
+}
+
+.projects-section .projects-text-wrapper {
+    position: relative;
+    top: 20%;
+    height: auto;
+    transform: translateX(-25%);
+    
+}
+
+.projects-section .projects-text-wrapper h1 {
+    color: #88eef7;
+}
+
+.projects-list {
+    list-style: none;
+    margin-top: 40px;    
+}
+
+.projects-list .project-name {
+    margin-bottom: 40px;
+    text-align: center;
+    
+     
+}
+
+.projects-list .project-name img {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    border-bottom-color: rebeccapurple;
+    border-top-color: deepskyblue;
+    border-left-color: rebeccapurple;
+    border-right-color: deepskyblue;
+    border-radius: 25%; 
+    transition: 0.5s ease-in-out;
+}
+
+.projects-list .project-name img:hover {  
+    border-bottom-color: deepskyblue;
+    border-top-color: rebeccapurple;
+    border-left-color: deepskyblue;
+    border-right-color: rebeccapurple;   
+}
+
+.projects-list .project-name .project-title {
+    margin-top: 0;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+    color: whitesmoke;
+    display: block;
+    padding 20px 0px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+    transition: 0.3s ease;
+}
+
+.projects-list .project-name .project-title:hover {
+    color: skyblue;
+}
+
+.projects-button .button {
+     position: relative;
+    left: 40%;
+    display: inline-block;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat',serif;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+    background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);   
+    transition: 0.5s ease-in-out;
+}
+
+.projects-button .button:hover {
+    background-position: right center;
+    background-image: linear-gradient(to right, #8fd3f4 0%, #84fab0 51%);
+    color: grey;
+}
