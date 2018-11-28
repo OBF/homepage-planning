@@ -7,4 +7,4 @@ Desktop version:
 
 -- The blue blurb in the selection criteria is supposed to remain constant while we're scrolling in that section.
 
--- Please let me know if I should change some alignments or colors and the like!
+-- Please let me know if I should change some alignments or colors and the like, and add and remove any parts!
