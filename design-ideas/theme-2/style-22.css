@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'K2D', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0;
+    display: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;   
+}
+
+section {
+    display: block;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #275aa1;
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    padding: 0;
+    text-align: justify;   
+}
+
+a {
+    color: #2d95b5;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*NAVIGATION*/
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 0px;  
+}
+
+.navbar .nav-logo {
+    padding: 0;
+    margin-left: 0;
+}
+
+.navbar-header .nav-logo img {
+    margin-top: 30px;
+    padding-top: 38px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin-bottom: 0px;  
+}
+
+.navbar ul li {
+    padding: 0px 20px;
+    text-align: right;
+    display: inline-block;
+    transition: 0.5s ease;
+}
+
+.navbar ul li:hover {
+    background-color: #c4f5c6;
+    border-radius: 25px;
+    text-decoration:none;
+}
+
+.navbar ul li a {
+    display: block;
+    padding-top: 0px;
+    color: darkslateblue;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;    
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-collapse .dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(196,245,198,0.9);
+    width: auto;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    z-index: 1;
+    text-align:left;
+    left: 0;
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.dropdown-menu li { 
+    display: block;     
+}
+
+.dropdown .dropdown-menu li a {
+    color: darkslategray;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.navbar .dropdown .dropdown-menu li:hover {
+    background-color: transparent;
+}
+
+
+.dropdown-menu li a:hover {
+   background-color: lightblue;
+    background-image: none;
+    border-radius: 10px;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;    
+}
+
+i {
+    border: solid darkslateblue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.down {
+    transform: rotate(45deg) translateY(-5px);    
+}
+
+
+/*ABOUT SECTION // SoOME FELLOWSHIP SECTION COMMONS*/
+.about-section, .fellowships-section {
+    background-position: left 42vh, right top;
+    background-size: 35% 50% 600px;
+    max-width: 500px;
+}
+
+.about-section .about-background-image {
+    max-width: 786px;
+    max-height: 480px;
+    position:absolute;
+    margin-top: 50px;
+    right: 0;
+    width: 100%;
+    height: 80%;  
+    background-size: cover;
+    border-radius: 100px 0 0 100px;
+    background-repeat:no-repeat;
+    opacity: 0.8;   
+}
+
+.col-sm-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.about-section .about-text-wrapper, .fellowships-section .fellowships-text-wrapper {
+    position: relative;
+    height: 600px;
+}
+
+.about-section .about-text-wrapper .about-content, .fellowships-section .fellowships-text-wrapper .fellowships-content{
+    position: relative;
+    top: 20%;
+   /* transform: translateY(-50%);*/
+}
+
+.about-section .about-text-wrapper .about-content-info, .fellowships-section .fellowships-text-wrapper .fellowships-content-info {
+    padding-right: 40px;
+    font-size: 20px;
+    color: #2d95b5;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 0.7px;
+}
+
+.about-content-button .button {
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Montserrat', serif;
+    border-radius: 0 25px 25px 0;
+    background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);
+    transition: 0.5s ease-in-out;   
+}
+
+.about-content-button .button:hover {
+    background-position: right center;
+    background-image: linear-gradient(to right, #8fd3f4 0%, #84fab0 51%);
+    color: grey;
+}
+
+.about-content-button .button span {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*NEWS SECTION and some FELLOWSHIP SECTION COMMMONS*/
+.news-section {
+    /*background-color: #d6f6c6;*/
+    background-color: #1b2e25;
+    margin-top: 0px;
+    padding: 55px 0px 70px;
+    position: relative;
+    margin-bottom: 50px;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.news-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #88eef7;
+   font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    padding: 0;
+}
+
+ .news-section .news-image {
+     max-width: 586px;
+    max-height: 480px;
+    position: absolute;
+    border-radius: 0 100px 100px 0;
+    left: -586px;
+    width: 40%;
+    height: 80%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center; 
+     transition: 1.25s ease-in-out;    
+}
+
+.col-md-7{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    width: 65%;
+}
+
+.col-md-offset-5 {
+    margin-left: 43%
+}
+
+.news-section .blog-list, .fellowships-section .fellowship-info-list {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;   
+    display: block;
+}
+
+.blog-list .list-post, .fellowship-info-list .list-question {
+    border-bottom: 1px solid gray;
+    padding: 15px 0 15px 0;
+    border-bottom-right-radius: 0px;
+    text-align: justify;   
+} 
+
+.blog-list .list-post a {
+    color: whitesmoke;
+    display: block;
+    padding 20px 0px;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Slabo 27px', serif;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+    transition: 0.3s ease;
+}
+
+.blog-list .list-post a:hover {
+    color: skyblue;
+    
+} 
+
+.news-button .button {
+    position: relative;
+    top: 30px;   
+    display: inline-block;
+    color: white;
+    padding: 10px 15px 10px 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    border-radius: 25px 0 0 25px;
+    background-image: linear-gradient(to left, #84fab0 0%,  #8fd3f4 51%);
+    margin-bottom: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.news-button .button:hover {
+    background-position: right center;
+    background-image: linear-gradient(to left, #8fd3f4 0%, #84fab0 51%);
+    color: grey;
+}
+
+.news-button .button a{
+    text-decoration: none;
+}
+
+.news-button .button span {
+    position: relative;
+    z-index: 10;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*FELLOWSHIPS SECTION*/
+.fellowships-section {
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease;
+}
+.fellowships-section .fellowships-text-wrapper {
+    position: relative;
+    top: 20%;
+    height: auto;
+}
+.fellowships-section .fellowships-background-image {
+    max-width: 560px;
+    max-height: 480px;
+    position: absolute;
+    margin-top: 50px;
+    right: -560px;
+    width: 100%;
+    height: 80%; 
+    background-size: cover;
+    border-radius: 100px 0 0 100px;
+    background-repeat: no-repeat;
+    transition: 1.25s ease-in-out;
+}
+
+.fellowship-info-list .list-question a{
+    display: block;
+    padding 20px 0px;
+    color: #2d95b5;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 26px;
+    transition: 0.3s ease;
+}
+
+.fellowship-info-list .list-question a:hover{
+    color: midnightblue;
+
+}
+
+.fellowships-apply-button .button {
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat',serif;
+    border-radius: 0 25px 25px 0;
+    background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);  
+    transition: 0.5s ease-in-out;
+}
+
+.fellowships-apply-button .button:hover {
+    background-position: right center;
+    background-image: linear-gradient(to right, #8fd3f4 0%, #84fab0 51%);
+    color: grey;
+}
+
+.fellowships-apply-button .button span {
+    position: relative;
+    z-index: 10;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.col-md-6 {
+    width: 65%;
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+/*PROJECTS SECTION*/
+
+
+.projects-section {
+    margin-top: 100px;
+    /*float: left;*/
+    background-color: #1b2e25;
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 0;
+    transition: 1s ease;
+    height: 100%;
+    width: 100%;
+    padding: 55px 0 50px 0;
+}
+
+.projects-section .projects-text-wrapper {
+    position: relative;
+    top: 20%;
+    height: auto;
+    transform: translateX(-25%);
+    
+}
+
+.projects-section .projects-text-wrapper h1 {
+    color: #88eef7;
+}
+
+.projects-list {
+    list-style: none;
+    margin-top: 40px;    
+}
+
+.projects-list .project-name {
+    margin-bottom: 40px;
+    text-align: center;
+    
+     
+}
+
+.projects-list .project-name img {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    border-bottom-color: rebeccapurple;
+    border-top-color: deepskyblue;
+    border-left-color: rebeccapurple;
+    border-right-color: deepskyblue;
+    border-radius: 25%; 
+    transition: 0.5s ease-in-out;
+}
+
+.projects-list .project-name img:hover {  
+    border-bottom-color: deepskyblue;
+    border-top-color: rebeccapurple;
+    border-left-color: deepskyblue;
+    border-right-color: rebeccapurple;   
+}
+
+.projects-list .project-name .project-title {
+    margin-top: 0;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+    color: whitesmoke;
+    display: block;
+    padding 20px 0px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+    transition: 0.3s ease;
+}
+
+.projects-list .project-name .project-title:hover {
+    color: skyblue;
+}
+
+.projects-button .button {
+     position: relative;
+    left: 40%;
+    display: inline-block;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat',serif;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+    background-image: linear-gradient(to right, #84fab0 0%,  #8fd3f4 51%);   
+    transition: 0.5s ease-in-out;
+}
+
+.projects-button .button:hover {
+    background-position: right center;
+    background-image: linear-gradient(to right, #8fd3f4 0%, #84fab0 51%);
+    color: grey;
+}
