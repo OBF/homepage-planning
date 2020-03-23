@@ -1,7 +1,9 @@
 [![Gitter](https://badges.gitter.im/OBF/homepage.svg)](https://gitter.im/OBF/homepage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# OBF Homepage
-Repository for the re-design of the OBF homepage. 
+# Note: this repo is now obsolete--please go to https://github.com/OBF/homepage
+
+## OBF Homepage planning
+Repository for discussing the re-design of the OBF homepage. 
 
 Current home page: [https://www.open-bio.org/wiki/Main_Page](https://www.open-bio.org/wiki/Main_Page)
 
@@ -12,5 +14,3 @@ Current home page: [https://www.open-bio.org/wiki/Main_Page](https://www.open-bi
 ## Design requirements: 
 
 Please see our [design brief](design.md)
-
-
